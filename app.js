@@ -17,7 +17,7 @@ let obj = {
       }
     },
     methods: {
-      addProduct() {
+      addEmployee() {
   
         if (this.name && this.date && this.daysWorked && this.salary) {
           this.employees.push({
@@ -34,7 +34,7 @@ let obj = {
           alert('Please fill in all fields')
         }
       },
-      removeProduct(index) {
+      removeEmployee(index) {
         this.employees.splice(index, 1)
       }
     }
